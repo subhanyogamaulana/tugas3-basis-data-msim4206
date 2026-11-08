@@ -5,12 +5,13 @@
 - **Program Studi**: Sistem Informasi
 - **Fakultas**: Fakultas Sains dan Teknologi (FST)
 - **Perguruan Tinggi**: Universitas Terbuka
+- **Link Video YouTube**: https://youtu.be/r6LHVMFcqm0
 
 ---
 
 ## Ringkasan Praktikum
 
-Repositori ini berisi berkas dan dokumentasi pelaksanaan Tugas 3 Mata Kuliah Praktik Basis Data yang terdiri dari:
+Repositori ini memuat berkas dan dokumentasi pelaksanaan Tugas 3 Mata Kuliah Praktik Basis Data yang terdiri dari:
 
 1. **Praktikum Transaksi (ACID & Trigger)**:
    - Pengujian transaksi multi-tabel menggunakan Stored Procedure (`transaksi1` s/d `transaksi5`) dengan perintah `START TRANSACTION`, `COMMIT`, `ROLLBACK`, dan `SAVEPOINT`.
@@ -21,6 +22,13 @@ Repositori ini berisi berkas dan dokumentasi pelaksanaan Tugas 3 Mata Kuliah Pra
    - Konfigurasi Server Master pada Windows (IP `192.168.56.1`, `server-id = 1`, `log-bin = mysql-bin`, `binlog-do-db = rumah_sakit`).
    - Konfigurasi Server Slave pada Linux Ubuntu di VirtualBox (IP `192.168.56.101`, `server-id = 2`, `replicate-do-db = rumah_sakit`).
    - Verifikasi jaringan Host-Only Adapter (`ping` dua arah 0% loss) dan status `Slave_IO_Running: Yes` serta `Slave_SQL_Running: Yes`.
+
+---
+
+## Tautan Video Rekaman Praktikum
+
+Video rekaman praktikum berdurasi 13 menit 33 detik dapat disaksikan pada tautan berikut:
+👉 [https://youtu.be/r6LHVMFcqm0](https://youtu.be/r6LHVMFcqm0)
 
 ---
 
